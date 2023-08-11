@@ -1,10 +1,13 @@
 import Logo from "../../assets/LogoWhite.svg";
+import styles from "./style.module.scss";
 
 export const Footer = () => {
    return (
-      <footer>
+      <footer className={styles.footer}>
          <div className="container">
-            <img src={Logo} alt="Logo The Journal" />
+            <div className={styles.flexBox}>
+               <img src={Logo} alt="Logo The Journal" />
+            </div>
          </div>
       </footer>
    );
