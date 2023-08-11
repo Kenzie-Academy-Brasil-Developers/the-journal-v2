@@ -1,10 +1,11 @@
 import { forwardRef } from "react"
+import styles from "./style.module.scss";
 
 export const Input = forwardRef(({error,...rest}, ref) => {
     return(
-        <div>
+        <div className={styles.fieldBox}>
             <input ref={ref} {...rest} />
-            {error ? <p>{error.message}</p> : null}
+            {error ? <p className="paragraph">{error.message}</p> : null}
         </div>
     )
 })

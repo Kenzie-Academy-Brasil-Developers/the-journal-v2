@@ -1,5 +1,6 @@
 import { DefaultTemplate } from "./components/DefaultTemplate";
 import { RoutesMain } from "./routes";
+import "./styles/index.scss";
 
 function App() {
    return (

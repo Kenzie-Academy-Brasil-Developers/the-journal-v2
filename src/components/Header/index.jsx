@@ -7,7 +7,7 @@ export const Header = () => {
          <Link to="/">
             <img src={Logo} alt="Logo The Journal" />
          </Link>
-         <Link to="/contact">Fale conosco</Link>
+         <Link className="btn" to="/contact">Fale conosco</Link>
       </header>
    );
 };

@@ -66,7 +66,7 @@ export const ContactForm = () => {
             error={errors.message}
             disabled={loading}
          />
-         <button type="submit" disabled={loading}>
+         <button className="btn" type="submit" disabled={loading}>
             {loading ? "Enviando" : "Enviar mensagem"}
          </button>
       </form>

@@ -15,6 +15,10 @@
     &.blog{
         font-size: clamp(1.8rem, 5vw, 2.75rem);
     }
+
+    &.center{
+        text-align: center;
+    }
 }
 
 .paragraph{
@@ -26,6 +30,10 @@
 
     &.bold, strong{
         font-weight: 800;
+    }
+
+    &.center{
+        text-align: center;
     }
 }
 
